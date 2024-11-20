@@ -1,0 +1,679 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow-x: hidden;
+}
+.navbar{
+    width: 100%;
+    background-color: black;
+    display: flex;
+    padding:20px 0px;
+
+}
+.partleft{
+    width:50%;
+    font-size: 1.2rem;
+    color: white;
+    font-weight: bold;
+}
+.partright{
+    width:50%;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    gap: 20px;
+}
+.partright > a{
+    text-decoration: none;
+    color: white;
+    
+}
+.partright > i{
+    width: 15px;
+    color: white;
+
+}
+.container{
+    width: 100%;
+    height: 600px;
+    background-image: url("https://stories.uq.edu.au/research/2022/coffee-is-going-extinct/assets/wUb2t9rgAD/uq-research-coffee-cup-2560x1440.jpg");
+    background-size:cover;
+    border: 1px solid black;
+    padding: 60px 0px;
+}
+.container > h1 {
+    font-size: 40px;
+    font-weight: lighter;
+    color:white;
+    padding: 5px 20px;
+    margin-left: 90px;
+}
+.container2{
+    width: 50%;
+    margin-top: 30px;
+    margin-left: 80px;
+}
+.container2 > h1{
+    font-size:55px;
+    color: white;
+    padding:20px 30px;
+}
+.container2 > p{
+    font-size: 19px;
+    color:white;
+    padding: 20px 30px;
+}
+.container2 > button{
+    background-color: black;
+    color: white;
+    border: 2px solid white;
+    margin-left: 30px;
+    border-radius:10px ;
+    padding:15px;
+
+}
+.container2 > button:hover{
+    background-color: orange;
+    border: 2px solid black;
+    border-radius: 10px;
+}
+.container3{
+    display: flex;
+    margin-top: 100px;
+    margin-left: 250px;
+    gap: 13px;
+
+}
+.container3 > span{
+    background-color: white;
+    color: black;
+    padding: 10px 0px;
+    width:35px;
+}
+.container3 > span:hover{
+    background-color: orangered;
+    border:1px solid black;
+}
+
+.content{
+    width: 100%;
+    display: flex;
+    gap:50px ;
+    justify-content: center;
+    padding: 100px;
+    
+}
+.content1 > h1{
+    font-size: 3.3rem;
+    color:brown;
+
+}
+.content1 > p{
+    font-size:1.2rem ;
+    padding: 15px 0px;
+}
+.content1 > button{
+    font-size: 1.1rem;
+    background-color: black;
+    color: white;
+    border: 2px solid black;
+    padding: 10px 40px;
+    margin-top: 10px;
+}
+.content1 > button:hover{
+    background-color:orange ;
+    color: white;
+    border: 2px solid black;
+
+}
+.content1 , .content2{
+    width:40%;
+}
+.content2 > img{
+    width: 90%;
+    height: 300px;
+}
+.box1 > h1{
+    text-align: center;
+    font-size: 2.8rem;
+    color: orangered;
+    padding: 20px;
+}
+.box1 > p{
+    width: 95%;
+    font-size: 1.3rem;
+    padding-left: 30px;
+}
+.block{
+    padding: 10px 20px;
+}
+.block1 > img{
+    width: 400px;
+    height: 300px;
+    padding: 5px 5px;
+}
+.botton{
+    text-align: center;
+    padding: 30px;
+}
+.botton1 > a{
+    background-color: black;
+    color: white;
+    font-size: 20px;
+    padding: 10px 30px;
+    text-align: center;
+    text-decoration: none;
+
+}
+.botton1 >a:hover{
+    background-color: orange;
+    color: white;
+    border: 2px solid black0;
+}
+.middle{
+    background-image: url("https://www.shutterstock.com/image-photo/boy-girl-drink-coffee-cozy-600w-1088620478.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    width: 100%;
+    height: 600px;
+    align-items: center;
+    padding: 50px 10px;
+}
+.middle1 > h1{
+    text-align: center;
+    color: white;
+    font-size: 3.3rem;
+    padding: 10px;
+    
+}
+.middle1 > p{
+    font-size: 1.1rem;
+    text-align: center;
+    color: white;
+    padding: 20px;
+}
+.coffee{
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+    
+}
+.coffee1{
+    background-color: orange;
+    width: 380px;
+    height: 230px;
+}
+.coffee1:hover > button{
+    display: flex;
+
+}
+.coffee1 > h1{
+    text-align: center;
+    font-size: 40px;
+    color: white;
+    padding: 10px;
+}
+.coffee1 > p{
+    color: white;
+    padding:0px 30px
+}
+.coffee1 > img{
+    width:50px;
+    height: 50px;
+    margin-left: 150px;
+}
+.coffee1 > button{
+    display: none;
+    width: 100px;
+    height: 30px;
+    text-align: center;
+    background-color:orange;
+    color: white;
+    border: 2px solid balck;
+    justify-content: center;
+    padding: 5px 0px;
+    margin-top: 50px;
+    margin-left: 150px;
+
+}
+.coffee1 > button:hover{
+    background-color: black;
+    color: white;
+    border: 2px solid black;
+}
+.coffee > .coffee1:hover{
+    background-color: red;
+    width: 450px;
+    height: 300px;
+}
+.card1{
+    padding: 10px 50px;
+    
+}
+.card1 > h1{
+    color: orangered;
+    font-size: 50px;
+    gap:5px;
+
+}
+.card1 > p{
+    font-size:20px;
+    padding: 10px;
+}
+.card2{
+    padding: 10px 50px;
+}
+.card2 > h1{
+    color: orangered;
+    font-size: 32px;
+    padding: 5px 0px;
+}
+.block1{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.card2 > p{
+    font-size: 20px;
+    padding:10px 0px;
+}
+.aprtment{
+    padding: 30px 0px;
+}
+.aprtment > h1{
+    color: orangered;
+    text-align: center;
+    font-size: 45px;
+}
+.building {
+    background-image: url("https://neurosciencenews.com/files/2023/06/coffee-brain-caffeine-neuroscincces.jpg");
+    background-size: cover;
+    width: 520px;
+    height: 450px;
+    margin: 10px;
+}
+.buildings > input{
+    font-size: 20px;
+    padding: 15px 100px; 
+    margin-top: 10px;
+    margin-left:13px;
+    border: 1px solid black;
+    border-radius: 30px;
+}
+.building1 > input{
+    font-size: 20px;
+    padding: 30px 100px;
+    margin-top: 10px;
+    margin-left:13px;
+    border: 1px solid black;
+    border-radius: 30px;
+}
+.building2 > button{
+    font-size: 20px;
+    padding: 13px 50px;
+    margin-top: 10px;
+    margin-left:150px;
+    border: 1px solid black;
+    border-radius: 30px;
+    background: orangered;
+}
+.building2 > button:hover{
+    background-color: white;
+    color: black
+}
+.footter{
+    display: flex;
+    background-color: black;
+    color: white;
+    padding: 40px 30px;
+    gap: 15px;
+}
+.footters{
+    width: 25%;
+}
+.footters >h1{
+    font-size: 30px;
+    padding: 25px 0px;
+}
+.footters > p{
+    font-size: 1rem;
+    padding:5PX 5px;
+}
+.footters > a{
+    font-size: 1rem;
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: white;
+    padding: 5px;
+
+}
+.footters > a:hover{
+    color: orange;
+}
+.bottom{
+    padding: 20px;
+    font-size: 1.1rem;
+    text-align: center;
+}
+
+
+
+@media screen and (max-width:400px){
+    .navbar{
+        width: 100vw;
+    }
+    .partleft{
+        font-size: 0.7rem;
+    }
+    .partright{
+        font-size: 0.5rem;
+        width: 400px;
+        gap:16px;
+
+    }
+    .container{
+        width: 100vw;
+        height: 200px;
+    }
+    .container2{
+        width: 50%;
+        margin-top: -21px;
+        margin-left: 77px;
+    }
+    .container > h1{
+        font-size:1rem;
+    }
+    .container2 > h1{
+        font-size: 25px;
+        
+    }
+    .container2 > p{
+        width: 80vw;
+        font-size:0.7rem;
+        margin-top: -40px;
+    }
+    .container2 > button{
+        font-size: 0.6rem;
+        padding: 3px 0px;
+        
+        
+    }
+    .container3{
+        margin-top: 1px;
+        margin-left: 100px;
+        gap: 1px;
+    }
+    .container3 > span{
+      padding: 2px 0px;
+      margin-top: 15px;
+      margin-left:10px;
+    }
+    .content{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .content1{
+        width: 93vw;
+        height: 300px;
+    }
+    .content1 > h1{
+        font-size: 1.8rem;
+    
+    }
+    .content1 > p{
+        font-size: 1rem;
+    }
+    .content1 > button{
+        font-size: 1rem;
+    }
+    .content2{
+        width: 100vw;
+    }
+    .content2 > img{
+        width: 100%;
+    }
+    .box1 > h1{
+        font-size: 2.1rem;
+    }
+    .box1 > p{
+        width: 95%;
+        font-size: 1rem;
+    }
+    .botton1 > a{
+        font-size: 1.5rem;
+        padding: 10px;
+    }
+    .coffee{
+        display: flex;
+        flex-direction: column;
+    }
+    .card1 > h1{
+        font-size: 2.2rem;
+    }
+    .card1 > p{
+        font-size: 1.1rem;
+    }
+    .card2 > h1{
+        font-size: 1.7rem;
+        padding: 1px;
+    }
+    .card2 > p{
+        font-size: 1.1rem;
+        padding: 2px;
+    }
+    .aprtment > h1{
+        font-size: 2.1rem;
+    }
+    .building{
+        width: 95vw;
+        height: 300px;
+    }
+    .buildings > input{
+        padding: 5px 70px;
+        font-size: 15px;
+    }
+    .building1 > input{
+        padding: 10px 70px;
+        font-size: 15px;
+    }
+    .building2 > button{
+        padding: 5px 20px;
+        font-size: 15px;
+        width: 25vw;
+    }
+    .footter{
+        display: flex;
+        flex-direction: column;
+        width: 1559px;
+    }
+
+    .footters > h1{
+        font-size: 1.6rem;
+    
+
+    }
+    .footters > p{
+        font-size: 0.9rem;
+        
+    }
+    .footters > a{
+        font-size: 0.9rem;
+    }
+}
+@media  screen and (min-width:401px) and (max-width:768px){
+    .navbar{
+        width: 100vw;
+    }
+    .partleft{
+        font-size: 1rem;
+    }
+    .partright{
+        font-size: 0.9rem;
+        width: 400px;
+        gap:16px;
+
+    }
+    .container{
+        width: 100vw;
+        height: 460px;
+    }
+    .container > h1{
+        font-size:2.1rem;
+    }
+    .container2{
+        width:96vw ;
+    }
+    .container2 > h1{
+        font-size: 3rem;
+        margin-top: -30px;
+        
+    }
+    .container2 > p{
+        font-size:1rem;
+        margin-top: -40px;
+    }
+    .container2 > button{
+        font-size: 0.8rem;
+        padding: 8px 5px;
+        
+        
+    }
+    .container3{
+        margin-top: 80px;
+        margin-left: 200px;
+        gap: 1px;
+    }
+    .container3 > span{
+      padding: 5px 0px;
+      margin-top: 15px;
+      margin-left:10px;
+    }
+    .content{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .content1{
+        width: 95vw;
+        height: 300px;
+    }
+    .content1 > h1{
+        font-size: 2rem;
+    
+    }
+    .content1 > p{
+        font-size: 1.2rem;
+    }
+    .content1 > button{
+        font-size: 1.1rem;
+    }
+    .content2{
+        width: 100vw;
+    }
+    .content2 > img{
+        width: 100vw;
+        height: 350px;
+    }
+
+    .box1 > h1{
+        font-size: 2.2rem;
+    }
+    .box1 > p{
+        width: 95%;
+        font-size: 1.1rem;
+    }
+    .block1 > img{
+        width: 95vw;
+        height: 350px;
+    }
+    .botton1 > a{
+        font-size: 1.3rem;
+        padding: 20px 10px ;
+    }
+    .coffee{
+        display: flex;
+        flex-direction: column;
+    }
+    .card1 > h1{
+        font-size: 2.3rem;
+    }
+    .card1 > p{
+        font-size: 1.1rem;
+        width: 700px;
+    }
+    .card2 > h1{
+        font-size: 1.8rem;
+
+    }
+    .card2 > p{
+        font-size: 1.1rem;
+        padding: 2px;
+        width: 700px;
+    }
+    
+    .aprtment > h1{
+        color: orangered;
+        text-align: center;
+        font-size: 40px;
+    }
+    .building {
+        background-image: url("https://neurosciencenews.com/files/2023/06/coffee-brain-caffeine-neuroscincces.jpg");
+        background-size: cover;
+        width: 97vw;
+        height: 450px;
+        margin: 10px;
+    }
+    .buildings > input{
+        font-size: 16px;
+        padding: 13px 200px; 
+        margin-top: 10px;
+        margin-left:13px;
+        border: 1px solid black;
+        border-radius: 30px;
+    }
+    .building1 > input{
+        font-size: 16px;
+        padding: 20px 200px;
+        margin-top: 10px;
+        margin-left:13px;
+        border: 1px solid black;
+        border-radius: 30px;
+    }
+    .building2 > button{
+        font-size: 20px;
+        padding: 13px 50px;
+        margin-top: 10px;
+        margin-left:150px;
+        border: 1px solid black;
+        border-radius: 30px;
+        background: orangered;
+    }
+    .building2 > button{
+        padding: 15px 10px;
+        font-size: 15px;
+        width: 25vw;
+    }
+    .footter{
+        display: flex;
+        flex-wrap: wrap;
+        width: 900px;
+    }
+
+    .footters > h1{
+        font-size: 1.6rem;
+    
+
+    }
+    .footters > p{
+        font-size: 0.9rem;
+        
+    }
+    .footters > a{
+        font-size: 0.9rem;
+    }
+}
